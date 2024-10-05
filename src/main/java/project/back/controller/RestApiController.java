@@ -10,7 +10,7 @@ import java.util.Map;
 @RestController
 public class RestApiController {
 
-    @GetMapping("/api/data")
+    @GetMapping("/api/hello")
     public String data() {
         return "스프링 부트에서 가져온 데이터.";
     }
